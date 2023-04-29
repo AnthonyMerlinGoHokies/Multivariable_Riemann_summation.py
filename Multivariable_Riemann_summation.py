@@ -1,12 +1,17 @@
-#In this example, the function f(x, y) is defined to be x**2 + y**2. The riemann_sum function takes as arguments the function to integrate, the region of integration defined by the limits a, b, c, and d, and the number of subintervals nx and ny in the x and y directions. The function then loops over each subinterval, evaluates the function at the midpoint of each subinterval, and adds the result to a running sum. Finally, the function returns the sum multiplied by the area of each subinterval (dx * dy).
+#In this example, the function f(x, y) is defined to be x**2 + y**2. 
+#The riemann_sum function takes as arguments the function to integrate, 
+#the region of integration defined by the limits a, b, c, and d, 
+#and the number of subintervals nx and ny in the x and y directions. 
+#The function then loops over each subinterval, evaluates the function at the midpoint of each subinterval, 
+#and adds the result to a running sum. Finally, the function returns the sum multiplied by the area of each subinterval (dx * dy).
 
-#In the example usage, we call riemann_sum with the function f, limits of integration 0 to 1 in both x and y directions, and 100 subintervals in each direction. The result is printed to the console.
-
-
+#In the example usage, we call riemann_sum with the function f, 
+#limits of integration 0 to 1 in both x and y directions, and 100 subintervals in each direction. 
+#The result is printed to the console.
 
 
 def f(x, y):
-    # define your function here
+    # function 
     return x**2 + y**2
 
 def riemann_sum(f, a, b, c, d, nx, ny):
@@ -28,3 +33,5 @@ print(result)
 
 
 
+
+#taco time :)
